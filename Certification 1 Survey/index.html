@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gaming Survey</title>
+</head>
+
+<body>
+<h1 id="title">Future of Gaming Survey Form</h1>
+<p id="description">Please complete this short survey</p>
+<fieldset>
+<form id="survey-form">
+  <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name"></label>
+  <label id="email-label">Email: <input id="email" type="email" required placeholder="Enter your email"></label>
+  <label id="number-label">Age: <input id="number" type="number" required min="13" max="110" placeholder="Age"></label>
+  <legend>On which platform do you usually play video games?</legend>
+        <label for="console"><input id="console" type="radio" name="platform" class="inline" checked value="console"/> Console</label>
+        <label for="pc"><input id="pc" type="radio" name="platform" class="inline" value="pc"/> PC</label>
+        <label for="mobile"><input id="mobile" type="radio" name="platform" class="inline" value="mobile" /> Mobile</label>
+        <label for="dropdown">Which platform do you think has the greatest potential for the future?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Console</option>
+            <option value="2">PC</option>
+            <option value="3">Mobile</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+<label for="comments">Additional Comments:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Additional Comments..."></textarea>
+        </label>
+        <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="tos"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <label for="data-share">
+        <input class="inline" id="data-share" type="checkbox" required name="data-share" value="consent"/> I consent to my data being shared
+      </label>
+      <input type="submit" value="Submit" id="submit"/>
+</form>
+</fieldset>
+</body>
+</html>
