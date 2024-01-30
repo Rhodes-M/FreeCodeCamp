@@ -1,3 +1,3 @@
-# TheOdinProject
+# FreeCodeCamp
 
-Lessons and files for The Odin Project
+Lessons and files for FreeCodeCamp
