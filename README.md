@@ -1,2 +1,3 @@
-# FreeCodeCamp
-FreeCodeCamp Lessons &amp; Certifications
+# TheOdinProject
+
+Lessons and files for The Odin Project
