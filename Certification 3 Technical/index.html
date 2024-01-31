@@ -1,23 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>C# Documentation</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <nav id="navbar">
-            <header>C# Documentation</header>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C# Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>C# Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#A_tour_of_the_C#_language">A tour of the C# language</a></li>
+            <li><a class="nav-link" href="#.NET_architecture">.NET architecture</a></li>
+            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+            <li><a class="nav-link" href="#Types_and_variables">Types and variables</a></li>
+            <li><a class="nav-link" href="#Program_structure">Program structure</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="A_tour_of_the_C#_language" class="main-section">
+            <header>A tour of the C# language</header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper mauris quis turpis condimentum, id interdum tortor ullamcorper.</p>
+            <p>Suspendisse potenti. Sed ac mauris nec velit maximus vestibulum. In aliquam vel metus sed aliquam.</p>
             <ul>
-                <li>A tour of the C# language</li>
-                <li>.NET architecture</li>
-                <li>Hello world</li>
-                <li>Types and variables</li>
-                <li>Program structure</li>
+                <li>C# is a general-purpose, multi-paradigm programming language developed by Microsoft.</li>
+                <li>It is part of the .NET framework and is designed for building a wide range of applications, from web applications to desktop software.</li>
+                <li>C# is an object-oriented language and supports features like classes, inheritance, polymorphism, and more.</li>
+                <li>It features strong typing, automatic memory management through garbage collection, and comprehensive standard libraries.</li>
+                <li>C# syntax is similar to other C-style languages like C++ and Java, making it relatively easy for developers familiar with those languages to learn.</li>
             </ul>
-        </nav>
-        <main id="main-doc"></main>
-    </body>
-</html>tg
+        </section>
+        <section id=".NET_architecture" class="main-section">
+            <header>.NET architecture</header>
+            <p>Nulla facilisi. Phasellus eget ligula non enim aliquam mattis ut ac magna. Integer nec sem eros.</p>
+            <p>Curabitur congue quam nec leo lacinia convallis. Fusce vel sem vitae nisi condimentum feugiat.</p>
+            <!-- Content here -->
+        </section>
+        <section id="Hello_world" class="main-section">
+            <header>Hello world</header>
+            <p>Ut convallis, odio in interdum vehicula, lacus tellus maximus mauris, sit amet lacinia quam tellus eu risus.</p>
+            <p>Vivamus lacinia sagittis orci, ut vestibulum libero condimentum nec. Nulla ultricies ultricies consequat.</p>
+            <code>
+                <pre>
+                    <span style="color: blue;">using</span> <span style="color: blue;">System;</span>
+                    <span style="color: blue;">class</span> <span style="color: purple;">Program</span>
+                    {
+                        <span style="color: blue;">static</span> <span style="color: blue;">void</span> <span style="color: purple;">Main</span>(<span style="color: blue;">string</span>[] args)
+                        {
+                            Console.WriteLine(<span style="color: green;">"Hello, world!"</span>);
+                        }
+                    }
+                </pre>
+            </code>
+        </section>
+        <section id="Types_and_variables" class="main-section">
+            <header>Types and variables</header>
+            <p>Integer bibendum faucibus ipsum non sollicitudin. Proin nec est eu dui mollis vehicula non vel augue.</p>
+            <p>Duis efficitur ex a quam faucibus, non fermentum lorem aliquam. Vivamus volutpat venenatis nibh id efficitur.</p>
+            <code>
+                <pre>
+                    <span style="color: blue;">using</span> <span style="color: blue;">System;</span>
+                    <span style="color: blue;">class</span> <span style="color: purple;">Program</span>
+                    {
+                        <span style="color: blue;">static</span> <span style="color: blue;">void</span> <span style="color: purple;">Main</span>(<span style="color: blue;">string</span>[] args)
+                        {
+                            <span style="color: blue;">int</span> number = <span style="color: purple;">10</span>;
+                            Console.WriteLine(<span style="color: green;">"The value of the variable 'number' is: "</span> + number);
+                        }
+                    }
+                </pre>
+            </code>
+            <code>
+                <pre>
+                    <span style="color: blue;">using</span> <span style="color: blue;">System;</span>
+                    <span style="color: blue;">class</span> <span style="color: purple;">Program</span>
+                    {
+                        <span style="color: blue;">static</span> <span style="color: blue;">void</span> <span style="color: purple;">Main</span>(<span style="color: blue;">string</span>[] args)
+                        {
+                            <span style="color: blue;">int</span> number = <span style="color: purple;">10</span>;
+                            Console.WriteLine(<span style="color: green;">"The value of the variable 'number' is: "</span> + number);
+                        }
+                    }
+                </pre>
+            </code>
+        </section>
+        <section id="Program_structure" class="main-section">
+            <header>Program structure</header>
+            <p>Aliquam erat volutpat. In hac habitasse platea dictumst. Nam a purus vitae nunc vehicula venenatis.</p>
+            <p>Proin dictum, libero vitae congue dignissim, est risus rhoncus eros, ac ultrices nisl ex ut odio.</p>
+            <code>
+                <pre>
+                    <span style="color: blue;">using</span> <span style="color: blue;">System;</span>
+                    <span style="color: blue;">class</span> <span style="color: purple;">Program</span>
+                    {
+                        <span style="color: blue;">static</span> <span style="color: blue;">void</span> <span style="color: purple;">Main</span>(<span style="color: blue;">string</span>[] args)
+                        {
+                            <span style="color: blue;">string</span> name = <span style="color: green;">"John"</span>;
+                            Console.WriteLine(<span style="color: green;">"Hello, "</span> + name + <span style="color: green;">"!"</span>);
+                        }
+                    }
+                </pre>
+            </code>
+            <code>
+                <pre>
+                    <span style="color: blue;">using</span> <span style="color: blue;">System;</span>
+                    <span style="color: blue;">class</span> <span style="color: purple;">Program</span>
+                    {
+                        <span style="color: blue;">static</span> <span style="color: blue;">void</span> <span style="color: purple;">Main</span>(<span style="color: blue;">string</span>[] args)
+                        {
+                            <span style="color: blue;">int</span> number = <span style="color: purple;">10</span>;
+                            Console.WriteLine(<span style="color: green;">"The value of the variable 'number' is: "</span> + number);
+                        }
+                    }
+                </pre>
+            </code>
+        </section>
+    </main>
+    <script>
+        // Add JavaScript for navigation if needed
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Styling for the navbar */
+#navbar {
+    width: 220px;
+    height: 100vh;
+    background-color: #2c3e50;
+    float: left;
+    position: fixed;
+    overflow-y: auto; /* Enable scrolling if content exceeds viewport height */
+}
+
+#navbar header {
+    background-color: #233140;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar li {
+    border-bottom: 1px solid #34495e;
+}
+
+#navbar li:last-child {
+    border-bottom: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #34495e;
+}
+
+/* Styling for the main content */
+#main-doc {
+    margin-left: 240px; /* Adjust according to the width of the navbar */
+    padding: 20px;
+}
+
+.main-section {
+    margin-bottom: 30px; /* Add some space between sections */
+}
+
+.main-section header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        float: none;
+        position: static;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
